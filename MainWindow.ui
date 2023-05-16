@@ -429,7 +429,6 @@
           <font>
            <family>Noto Serif CJK SC</family>
            <pointsize>8</pointsize>
-           <weight>50</weight>
            <italic>false</italic>
            <bold>false</bold>
            <stylestrategy>PreferDefault</stylestrategy>
@@ -3238,7 +3237,6 @@
        <property name="font">
         <font>
          <pointsize>17</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -3258,7 +3256,6 @@
        <property name="font">
         <font>
          <pointsize>17</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -3278,7 +3275,6 @@
        <property name="font">
         <font>
          <pointsize>17</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -3298,7 +3294,6 @@
        <property name="font">
         <font>
          <pointsize>17</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -3318,7 +3313,6 @@
        <property name="font">
         <font>
          <pointsize>17</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -3338,7 +3332,6 @@
        <property name="font">
         <font>
          <pointsize>17</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -3358,7 +3351,6 @@
        <property name="font">
         <font>
          <pointsize>17</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -3378,7 +3370,6 @@
        <property name="font">
         <font>
          <pointsize>17</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -3398,7 +3389,6 @@
        <property name="font">
         <font>
          <pointsize>17</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -3418,7 +3408,6 @@
        <property name="font">
         <font>
          <pointsize>17</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -3429,6 +3418,19 @@
      </item>
     </layout>
    </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>130</y>
+      <width>100</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>check</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -3436,7 +3438,7 @@
      <x>0</x>
      <y>0</y>
      <width>943</width>
-     <height>17</height>
+     <height>24</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
