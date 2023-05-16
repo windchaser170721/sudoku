@@ -3,7 +3,7 @@
 //
 
 // You may need to build the project (run Qt uic code generator) to get "ui_mainwindow.h" resolved
-
+//哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈
 #include "MainWindow.h"
 #include "ui_MainWindow.h"
 mainwindow::mainwindow(QWidget *parent) :
@@ -38,7 +38,7 @@ void mainwindow::debug() {
 }
 // 开启/关闭 mark 模式.
 void mainwindow::setMark(bool checked) {
-  focusClean(); // 强制关闭focus
+  focusClean(); // 强制关闭focu
   for (int i = 0; i < 9; i++)
     for (int j = 0; j < 9; j++) {
       boardBtn[i][j]->setChecked(false);
