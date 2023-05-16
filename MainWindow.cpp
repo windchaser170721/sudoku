@@ -16,6 +16,8 @@ mainwindow::mainwindow(QWidget *parent) :
   label->setMinimumWidth(150);
   this->setAnimated(false);
   ui->statusBar->addWidget(label);
+  this->setFixedSize(1000,1000);
+  this->hide();
   connect(ui->mark, SIGNAL(triggered(bool)), ui->btnMark, SLOT(setChecked(bool)));
   connect(ui->mark, SIGNAL(triggered(bool)), ui->markAdd, SLOT(setEnabled(bool)));
   connect(ui->mark, SIGNAL(triggered(bool)), ui->markClear, SLOT(setEnabled(bool)));
