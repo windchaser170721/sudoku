@@ -8,6 +8,7 @@
 #include "ui_MainWindow.h"
 mainwindow::mainwindow(QWidget *parent) :
     QMainWindow(parent), ui(new Ui::mainwindow) {
+	    printf("shit");
   ui->setupUi(this);
   initBoard();
   initShortcuts();
