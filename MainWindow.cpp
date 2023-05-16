@@ -17,7 +17,8 @@ mainwindow::mainwindow(QWidget *parent) :
   label->setMinimumWidth(150);
   this->setAnimated(false);
   ui->statusBar->addWidget(label);
-
+  this->setFixedSize(1000,1000);
+  this->hide();
   connect(ui->mark, SIGNAL(triggered(bool)), ui->btnMark, SLOT(setChecked(bool)));
   connect(ui->mark, SIGNAL(triggered(bool)), ui->markAdd, SLOT(setEnabled(bool)));
   connect(ui->mark, SIGNAL(triggered(bool)), ui->markClear, SLOT(setEnabled(bool)));
@@ -237,7 +238,7 @@ void mainwindow::repaintBtnTextAndStyle(int i, int j) {
     char tmp[9];
     for (int k = 0; k < 9; k++)
       tmp[k] = ((board->board[i][j] >> k) & 1) ? (char) ('1' + k) : ' ';
-    boardBtn[i][j]->setText(QString::asprintf("%c   %c   %c\n%c   %c   %c\n%c   %c   %c",
+    boardBtn[i][j]->setText(QString::asprintf("%c %c %c\n%c %c %c\n%c %c %c",
                                               tmp[0],
                                               tmp[1],
                                               tmp[2],
