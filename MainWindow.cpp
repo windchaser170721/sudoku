@@ -236,7 +236,7 @@ void mainwindow::repaintBtnTextAndStyle(int i, int j) {
     char tmp[9];
     for (int k = 0; k < 9; k++)
       tmp[k] = ((board->board[i][j] >> k) & 1) ? (char) ('1' + k) : ' ';
-    boardBtn[i][j]->setText(QString::asprintf("%c   %c   %c\n%c   %c   %c\n%c   %c   %c",
+    boardBtn[i][j]->setText(QString::asprintf("%c %c %c\n%c %c %c\n%c %c %c",
                                               tmp[0],
                                               tmp[1],
                                               tmp[2],
